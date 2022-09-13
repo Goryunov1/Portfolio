@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
-    background-color: #2e2e2e;
-    color: #ffffff;
+.header_1 {
+    display: flex;
+    padding: 200px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px 0 #0003;
+}
 
+/* @media (min-width: 1260px) {
+    header{
+        padding-left: calc(50% - 600px);
+        padding-right: calc(50% - 600px);
+    }
+} */
+body {
+    
+    color: #ffffff;
+    background-color: #2e2e2e;
     font-size: 16px;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
@@ -33,4 +47,22 @@ margin-bottom: 20px;
     max-width: 750px;
     margin: 40px;
     padding-top: 30px;
+    
+}
+
+h1.app {
+    align-items: center;
+    margin-top: 110px;
+    margin-right: 330px;
+}
+
+hr.lines {
+    height: 100%;
+    width: 100%;
+    margin-left: 300px;
+    background-color: azure;
+    padding: 1px;
+    border: 1px solid white;
+    border-radius: 100%;
+    box-shadow: 4px 4px 14px rgba(236, 232, 232, 0.861);
 }
